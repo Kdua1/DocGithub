@@ -18,7 +18,4 @@ jobs:
             username: ${{ secrets.DOCKERHUB_USERNAME }}
             password: ${{ secrets.DOCKERHUB_TOKEN }}
   
-        # with:
-        #     images: |
-        #         docker.io/${{ github.repository }}
                 
